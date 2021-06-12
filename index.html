@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="all-box">
+      <div class="day-box">
+        <div class="night">
+          <div class="shooting_star" style="margin: 17.5em -32.5em"></div>
+          <div class="shooting_star" style="margin: -27.625em 26.125em"></div>
+          <div class="shooting_star" style="margin: -12.5em 12.5em"></div>
+          <div class="shooting_star" style="margin: -16.25em 38em"></div>
+          <div class="shooting_star" style="margin: -38.25em 19.75em"></div>
+          <div class="shooting_star" style="margin: -25em 14.5em"></div>
+          <div class="shooting_star" style="margin: -16.5em 21em"></div>
+          <div class="shooting_star" style="margin: -17.5em 17.5em"></div>
+          <div class="shooting_star" style="margin: 26.5em -21.5em"></div>
+          <div class="shooting_star" style="margin: 3.5em 15.5em"></div>
+          <div class="shooting_star" style="margin: 21.5em -8.5em"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star" style="margin: 2.5em -1.5em"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star" style="margin: 26.5em -14.5em"></div>
+          <div class="shooting_star" style="margin: 8.5em -6em"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star" style="margin: 26.5em -14.5em"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star" style="margin: -6.5em 5.5em"></div>
+        </div>
+        <div class="js-day day">
+          <h1>Today</h1>
+        </div>
+        <div class="js-clock clock-box">
+          <h1>00:00</h1>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <h4 class="js-greetings greeting"></h4>
+
+        <form class="js-form form">
+          <input
+            class="input-name"
+            type="text"
+            placeholder="What Is Your Name"
+            maxlength="12"
+          />
+        </form>
+
+        <form>
+          <input
+            type="text"
+            class="todo-input"
+            placeholder="Write Your ToDo List"
+            maxlength="12"
+          />
+          <button class="todo-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+          </button>
+          <div class="select">
+            <select name="todos" class="filter-todo">
+              <option value="all">All</option>
+              <option value="completed">Completed</option>
+              <option value="uncompleted">Uncompleted</option>
+            </select>
+          </div>
+        </form>
+
+        <div class="todo-container">
+          <ol class="todo-list"></ol>
+        </div>
+      </div>
+
+      <span class="js-weather weather"></span>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  </body>
+</html>
